@@ -1,0 +1,20 @@
+[
+  {"tracking_id": "em_a1f0c97d2b3e", "status": "delivered",   "occurred_at": "2026-06-01T10:05:00Z", "received_at": "2026-06-01T10:05:30Z"},
+  {"tracking_id": "em_a1f0c97d2b3e", "status": "sent",        "occurred_at": "2026-06-01T10:00:00Z", "received_at": "2026-06-01T10:06:00Z"},
+  {"tracking_id": "em_a1f0c97d2b3e", "status": "opened",      "occurred_at": "2026-06-01T10:10:00Z", "received_at": "2026-06-01T10:10:10Z"},
+  {"tracking_id": "em_a1f0c97d2b3e", "status": "delivered",   "occurred_at": "2026-06-01T10:05:00Z", "received_at": "2026-06-01T10:11:00Z"},
+  {"tracking_id": "sm_77b3e0148aa2", "status": "sent",        "occurred_at": "2026-06-01T10:01:00Z", "received_at": "2026-06-01T10:01:05Z"},
+  {"tracking_id": "sm_77b3e0148aa2", "status": "undelivered", "occurred_at": "2026-06-01T10:06:00Z", "received_at": "2026-06-01T10:06:05Z"},
+
+  {"tracking_id": "em_5c2d81f4a019", "status": "sent",        "occurred_at": "2026-06-01T09:00:00Z", "received_at": "2026-06-01T09:00:05Z"},
+  {"tracking_id": "em_5c2d81f4a019", "status": "bounced",     "occurred_at": "2026-06-01T09:03:00Z", "received_at": "2026-06-01T09:03:05Z"},
+  {"tracking_id": "em_5c2d81f4a019", "status": "bounced",     "occurred_at": "2026-06-01T09:03:00Z", "received_at": "2026-06-01T09:05:00Z"},
+  {"tracking_id": "em_5c2d81f4a019", "status": "undelivered", "occurred_at": "2026-06-01T09:04:00Z", "received_at": "2026-06-01T09:04:10Z"},
+
+  {"tracking_id": "sm_0e9a4f6c7d55", "status": "sent",        "occurred_at": "2026-06-01T11:00:00Z", "received_at": "2026-06-01T11:00:05Z"},
+  {"tracking_id": "sm_0e9a4f6c7d55", "status": "opened",      "occurred_at": "2026-06-01T11:05:00Z", "received_at": "2026-06-01T11:05:05Z"},
+  {"tracking_id": "sm_0e9a4f6c7d55", "status": "delivered",   "occurred_at": "2026-06-01T11:02:00Z", "received_at": "2026-06-01T11:05:30Z"},
+  {"tracking_id": "sm_0e9a4f6c7d55", "status": "failed",      "occurred_at": "2026-06-01T11:06:00Z", "received_at": "2026-06-01T11:06:05Z"},
+
+  {"tracking_id": "sm_3a00b1c2unkn", "status": "delivered",   "occurred_at": "2026-06-01T10:00:00Z", "received_at": "2026-06-01T10:00:00Z"}
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "user": "alice",
+    "deliver_at": "2026-06-01T10:00:00Z",
+    "channels": {
+      "email": {
+        "to": "alice@example.com",
+        "title": "Welcome",
+        "body": "Welcome to the app"
+      },
+      "sms": {
+        "to": "+15550000001",
+        "text": "Welcome to the app"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "user": "bob",
+    "deliver_at": "2026-06-01T09:00:00Z",
+    "channels": {
+      "email": {
+        "to": "bob@example.com",
+        "title": "Your receipt",
+        "body": "Thanks for your purchase"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "user": "carol",
+    "deliver_at": "2026-06-01T11:00:00Z",
+    "channels": {
+      "sms": {
+        "to": "+15550000003",
+        "text": "Your code is 1234"
+      }
+    }
+  }
+]

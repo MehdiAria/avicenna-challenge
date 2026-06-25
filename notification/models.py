@@ -31,7 +31,8 @@ class EmailChannel(models.Model):
     title = models.CharField(max_length=255)
     body = models.TextField()
     status = models.CharField(max_length=16, choices=Status.choices, default=Status.SENT)
-    status_updated_at = models.DateTimeField(auto_now_add=True)
+    # tracks the occurred_at of the event that last set status (for out-of-order dedup)
+    status_occurred_at = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return f"Email({self.tracking_id}) → {self.to} [{self.status}]"
@@ -53,7 +54,7 @@ class SMSChannel(models.Model):
     to = models.CharField(max_length=32)
     text = models.TextField()
     status = models.CharField(max_length=16, choices=Status.choices, default=Status.SENT)
-    status_updated_at = models.DateTimeField(auto_now_add=True)
+    status_occurred_at = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return f"SMS({self.tracking_id}) → {self.to} [{self.status}]"
